@@ -390,6 +390,54 @@ header nav ul li.btn a:hover, .email .block button:hover {
   top: 0;
 }
 
+.work {
+  padding: 80px 0px;
+}
+
+.work h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.work p {
+  margin-left: 0px;
+  text-align: left;
+}
+
+.work .blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .blocks .block {
+  width: 25%;
+  border-radius: 10px;
+  padding: 50px 35px;
+  background: #1C140F;
+}
+
+.work .blocks .block h3 {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.work .blocks .block .badge {
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purple {
+  background: #560F67;
+}
+
+.work .blocks .block .badge.brown {
+  background: #31190D;
+}
+
+.work .blocks .block .badge.green {
+  background: #192A1D;
+}
+
 footer {
 	background: #000;
 	padding: 50px 0;
