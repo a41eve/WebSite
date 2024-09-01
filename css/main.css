@@ -8,6 +8,7 @@ body {
   font-weight: 400;
   color: #fff;
   font-size: 16px;
+  background: #000;
 }
 
 a {
@@ -436,6 +437,22 @@ header nav ul li.btn a:hover, .email .block button:hover {
 
 .work .blocks .block .badge.green {
   background: #192A1D;
+}
+
+.hero-contacts h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 33px;
+}
+
+.hero-contacts p {
+  text-align: center;
+}
+
+.hero-contacts img {
+  width: 70%;
+  margin: 80px 15%;
 }
 
 footer {
