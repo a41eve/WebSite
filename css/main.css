@@ -25,6 +25,7 @@ img {
     rgba(74, 40, 0, 1) 100%
   );
   width: 100%;
+  overflow-x: hidden;
 }
 .container {
   width: 1400px;
@@ -118,7 +119,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
 	text-align: left;
 }
 
-.hero--info .btn {
+.hero--info .btn, .hero-about .info .btn {
   background: #fa9021;
   color: #fff;
   border-radius: 50px;
@@ -128,7 +129,7 @@ header nav ul li.btn a:hover, .email .block button:hover {
   font-size: 17px;
 }
 
-.hero--info .btn:hover {
+.hero--info .btn:hover, .hero-about .info .btn:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -358,6 +359,35 @@ header nav ul li.btn a:hover, .email .block button:hover {
 	padding: 13px 17px;
 	border-radius: 7px;
 	font-size: 16px;
+}
+
+/* page about us */
+.hero-about {
+  position: relative;
+}
+
+.hero-about .info {
+  width: 500px;
+  padding: 250px 0px;
+}
+
+.hero-about .info h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.hero-about .info p {
+  text-align: left;
+}
+
+.hero-about .info .btn {
+  margin-top: 20px;
+}
+
+.hero-about img {
+  position: absolute;
+  right: -150px;
+  top: 0;
 }
 
 footer {
