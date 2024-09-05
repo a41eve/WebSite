@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game WebSite</title>
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
       rel="stylesheet"
     />
+
+    <title>Game WebSite</title>
   </head>
   <body>
     <div class="wrapper">
@@ -27,35 +30,55 @@
         </nav>
       </header>
 
-      <div class="hero-about container">
-        <div class="info">
+      <section>
+        <div class="hero-about container">
+          <div class="info">
             <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
             <button class="btn">Get in touch</button>
+          </div>
+          <img src="img/about-banner.png" alt="Баннер" />
         </div>
-        <img src="img/about-banner.png" alt="">
-      </div>
+      </section>
 
-      <div class="container work">
-        <h2>Why work with us</h2>
-        <div class="blocks">
+      <section>
+        <div class="container work">
+          <h2>Why work with us</h2>
+          <div class="blocks">
             <div class="block">
-                <span class="badge purple">Lorem ipsum</span>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <span class="badge purple">Lorem ipsum</span>
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
             </div>
             <div class="block">
-                <span class="badge brown">Lorem ipsum</span>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <span class="badge brown">Lorem ipsum</span>
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
             </div>
             <div class="block">
-                <span class="badge green">Lorem ipsum</span>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+              <span class="badge green">Lorem ipsum</span>
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
             </div>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
 
     <footer>
@@ -71,10 +94,11 @@
         <div>
           <h4>About us</h4>
           <ul>
-            <li>Zeux</li>
-            <li>Portfolio</li>
-            <li>Careers</li>
-            <li>Contact us</li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">News</a></li>
+            <li class="btn"><a href="contacts.html">Contact us</a></li>
           </ul>
         </div>
         <div class="contact_us">
@@ -83,11 +107,11 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <p>+908 89097 890</p>
+          <a href="tel:+90889097890">+908 89097 890</a>
         </div>
       </div>
       <hr />
-      <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+      <p>Copyright &#174; 2021 Lorem All rights Rcerved</p>
     </footer>
   </body>
 </html>

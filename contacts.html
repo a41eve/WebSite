@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game WebSite</title>
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
       rel="stylesheet"
     />
+
+    <title>Game WebSite</title>
   </head>
   <body>
     <header class="container">
@@ -26,39 +29,46 @@
       </nav>
     </header>
 
-    <div class="container hero-contacts">
+    <section>
+      <div class="container hero-contacts">
         <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        <img src="img/map.png" alt="">
-    </div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <img src="img/map.png" alt="Карта" />
+      </div>
+    </section>
 
-    <div class="feedback">
+    <section>
+      <div class="feedback">
         <div class="container">
-            <h2>Say hello</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing .</p>
+          <h2>Say hello</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing .</p>
 
-            <form>
-                <div class="inline">
-                    <div>
-                        <label>First Name</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>Last Name</label>
-                        <input type="text">
-                    </div>
-                </div>
+          <form action="#">
+            <div class="inline">
+              <div>
+                <label>First Name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label>Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
 
-                <label>Email Address</label>
-                <input type="email" class="one-line">
+            <label>Email Address</label>
+            <input type="email" class="one-line" />
 
-                <label>Message</label>
-                <textarea class="one-line"></textarea>
+            <label>Message</label>
+            <textarea class="one-line"></textarea>
 
-                <button type="button" class="btn">Get in touch</button>
-            </form> 
+            <button type="submit" class="btn">Get in touch</button>
+          </form>
         </div>
-    </div>
+      </div>
+    </section>
 
     <footer>
       <div class="blocks container">
@@ -73,10 +83,11 @@
         <div>
           <h4>About us</h4>
           <ul>
-            <li>Zeux</li>
-            <li>Portfolio</li>
-            <li>Careers</li>
-            <li>Contact us</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">News</a></li>
+            <li class="btn"><a href="#">Contact us</a></li>
           </ul>
         </div>
         <div class="contact_us">
@@ -85,11 +96,11 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <p>+908 89097 890</p>
+          <a href="tel:+90889097890">+908 89097 890</a>
         </div>
       </div>
       <hr />
-      <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+      <p>Copyright &#174; 2021 Lorem All rights Rcerved</p>
     </footer>
   </body>
 </html>
