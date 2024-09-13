@@ -52,8 +52,15 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+useHead({
+  title: "О НАС | WebSite",
+  meta: [{ name: "description", content: "Это страница О НАС" }],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 </script>
 
 <style></style>

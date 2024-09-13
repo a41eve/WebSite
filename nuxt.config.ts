@@ -2,6 +2,17 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: "WebSite",
+      meta: [
+        {
+          name: "description",
+          content: "Это страница WebSite",
+        },
+      ],
+    },
+  },
   modules: [
     "@vueuse/nuxt",
     "@nuxt/fonts",

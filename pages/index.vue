@@ -148,8 +148,15 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+useHead({
+  title: "Главная | WebSite",
+  meta: [{ name: "description", content: "Это главная страница сайта" }],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 </script>
 
 <style></style>

@@ -41,8 +41,15 @@
   </section>
 </template>
 
-<script>
-export default {};
+<script setup lang="ts">
+useHead({
+  title: "Контакты | WebSite",
+  meta: [{ name: "description", content: "Это страница контакты" }],
+  bodyAttrs: {
+    class: "test",
+  },
+  script: [{ innerHTML: "console.log('Hello world')" }],
+});
 </script>
 
 <style></style>
